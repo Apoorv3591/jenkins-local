@@ -11,5 +11,6 @@ app.get('/', (req, res) => {
 
 // Start the server and listen on port 3000
 app.listen(3000, () => {
+    console.log('test....');
     console.log('Server is running on http://localhost:8080');
 });
